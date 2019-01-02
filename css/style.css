@@ -1,14 +1,15 @@
-/* Custom Stylesheet */
-/**
- * Use this file to override Materialize files so you can update
- * the core Materialize files in the future
- *
- * Made By MaterializeCSS.com
- */
+#img-control{
+  max-width: 189px;
+  text-align: justify;
+  /* object-fit: scale-down;
+  object-position: absolute; */
 
-.icon-block {
-  padding: 0 15px;
 }
-.icon-block .material-icons {
-	font-size: inherit;
+
+#img-control2{
+  max-width: 210px;
+  text-align: justify;
+  /* object-fit: scale-down;
+  object-position: absolute; */
+
 }
