@@ -1,6 +1,6 @@
 #img-control{
   max-width: 189px;
-  text-align: justify;
+  /* text-align: justify; */
   /* object-fit: scale-down;
   object-position: absolute; */
 
@@ -8,8 +8,12 @@
 
 #img-control2{
   max-width: 210px;
-  text-align: justify;
+  /* text-align: justify; */
   /* object-fit: scale-down;
   object-position: absolute; */
 
+}
+
+#contain-img{
+  background-color: gray;
 }
