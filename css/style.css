@@ -1,6 +1,4 @@
-/* body{
-  background-image: url(../assets/images/network-3849206_1280.jpg);
-} */
+
 
 #contain-img{
   /* background-color: gray; */
@@ -65,4 +63,9 @@
 
 #small-img3{
   max-width: 150px;
+}
+
+#small-img4{
+  max-width: 70px;
+
 }
