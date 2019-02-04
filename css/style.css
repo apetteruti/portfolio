@@ -1,3 +1,38 @@
+#row-background{
+
+  background-image: url(../assets/images/graph.png);
+  /* background-color: aqua; */
+  max-height: 2000px;
+  /* padding-left: 20px; */
+  margin-left: 75px;
+  /* max-width: 590px;  */
+  overflow: hidden;
+  text-indent: -10px;
+  
+}
+  
+/* .side-crop { 
+} */
+
+#heading{
+  padding-left: 115px;
+  font-size: 75px;
+  margin: 0px;
+  line-height: 100%;
+  margin: 0;
+}
+
+#sub-head{
+  padding-left: 115px;
+  font-size: 30px;
+  line-height: 100%;
+  color: darkgray;
+}
+
+#links{
+  color: darkgray;
+  padding-left: 115px;
+}
 
 
 #contain-img{
