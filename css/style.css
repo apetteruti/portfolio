@@ -34,10 +34,10 @@
   padding-left: 115px;
 }
 
-#headshot{
+.headshot{
   width: 150px;
   padding-right: 3%;
-  border-radius: 50%;
+  /* border-radius: 50%; */
   float: left;
 }
 
