@@ -36,9 +36,9 @@
 
 #headshot{
   padding-right: 3%;
+  border-radius: 50%;
   width: 150px;
   float: left;
-  border-radius: 50%;
 }
 
 #contain-img{
