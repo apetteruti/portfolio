@@ -34,6 +34,12 @@
   padding-left: 115px;
 }
 
+#headshot{
+  padding-right: 3%;
+  width: 150px;
+  float: left;
+  border-radius: 50%;
+}
 
 #contain-img{
   /* background-color: gray; */
