@@ -16,14 +16,17 @@
 
 #heading{
   padding-left: 115px;
+  padding-bottom: 0px;
   font-size: 75px;
-  margin: 0px;
+  margin-bottom: 20px;
   line-height: 100%;
   margin: 0;
 }
 
 #sub-head{
   padding-left: 115px;
+  margin-top: 5px;
+  margin-bottom: 10px;
   font-size: 30px;
   line-height: 100%;
   color: darkgray;
