@@ -41,6 +41,10 @@
   padding-left: 115px;
 }
 
+.links-scroll a.active{
+  color: purple;
+}
+
 .headshot{
   width: 150px;
   padding-right: 3%;

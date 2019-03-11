@@ -11,26 +11,25 @@
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
-
-    <!--  Scripts-->
-    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <!-- Compiled and minified JavaScript -->
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-   <script src="js/init.js"></script>
- 
+<!--  Scripts-->
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="js/init.js"></script>
+  
 </head>
 
 <body>
   <!-- <div class = "container"> -->
-
-
-  <div class="section">
+    
+    
+    <div class="section">
     <div class="row" id="row-background" class="side-crop">
       <br><br>
       <p id="heading">Amanda Petteruti</p>
       <p id="sub-head">Full Stack Developer</p>
       <p id="sub-head">Empowering People with Data</p>
-      <div id="links">
+      <div id="links" class = "links-scroll">
         <a href="#about"> About </a> ||
         <a href="#portfolio">Portfolio </a> ||
         <a href="#skills">Skills </a> ||
@@ -41,9 +40,10 @@
   </div>
 
   <div class="container">
+    <a id = "about"></a>
     <div class="section scrollspy">
       <div class="row">
-        <h2 id=h2 id="about">About Me</h2>
+        <h2 id=h2>About Me</h2>
         <hr><br>
         <div class="col s2">
           <img src="assets/images/Amanda-Petteruiti-square.jpg" class="circle responsive-img headshot">
@@ -59,22 +59,23 @@
         </div>
 
       </div>
-
+      
     </div>
-
-
+    
+    
   </div>
-
+  
   <!-- </div> -->
 
-
-  <div class="container">
+  
+  <div class="container" >
+    <a id="portfolio"></a>
     <div class="section scrollspy">
       <div class="row">
-        <h2 id=h2 id="portfolio">Portfolio</h2>
+        <h2 id=h2 >Portfolio</h2>
         <hr>
       </div>
-
+      
       <!--   Icon Section   -->
       <div class="row">
         <div class="col s12 m3">
@@ -88,7 +89,7 @@
           </div>
         </div>
 
-
+        
         <div class="col s12 m3">
           <div class="card">
             <img class="card-image responsive-img" id="img-control" src="assets/images/sapphire.png">
@@ -98,8 +99,8 @@
             </div>
           </div>
         </div>
-
-
+        
+        
         <div class="col s12 m3">
           <div class="card">
             <img class="card-image center responsive-img" id="img-control2" src="assets/images/giphy.jpg">
@@ -109,7 +110,7 @@
             </div>
           </div>
         </div>
-
+        
 
         <div class="col s12 m3">
           <div class="card">
@@ -134,8 +135,8 @@
             </div>
           </div>
         </div>
-
-
+        
+        
         <div class="col s12 m3">
           <div class="card">
             <img class="card-image responsive-img" id="nasa" src="assets/images/nasa.jpg">
@@ -145,8 +146,8 @@
             </div>
           </div>
         </div>
-
-
+        
+        
         <div class="col s12 m3">
           <div class="card">
             <img class="card-image center responsive-img" id="img-control2" src="https://tse4.mm.bing.net/th?id=OIP.d1WSJmkgsH2DTIV-gAmOawHaE8&pid=15.1&P=0&w=254&h=170">
@@ -156,7 +157,7 @@
             </div>
           </div>
         </div>
-
+        
         <div class="col s12 m3">
           <div class="card">
             <img class="card-image responsive-img" id="burger" src="https://i.pinimg.com/736x/6a/fa/32/6afa327c78d587e72f73b45843ef181e--bobs-burgers-bob-s.jpg">
@@ -170,17 +171,18 @@
 
     </div>
   </div>
-
+  
   <div class="container">
-    <div class="section">
-
-
+    <a id = "skills"></a>
+    <div class="section scrollspy">
+      
+      
       <div class="row">
-        <h2 id=h2 id="skills scrollspy">Skills</h2>
+        <h2 id="h2">Skills</h2>
         <hr><br>
       </div>
     </div>
-
+    
     <div class="row">
       <div class="col s12 m4">
         <h4>Front End</h4>
@@ -192,7 +194,7 @@
         <img id="small-img4" src="http://devstickers.com/assets/img/cat/handlebars-js.png">
 
       </div>
-
+      
       <div class="col s12 m4">
         <h4>Back End</h4>
         <img id="small-img2" src="https://upload.wikimedia.org/wikipedia/en/thumb/6/62/MySQL.svg/1200px-MySQL.svg.png">
@@ -203,46 +205,47 @@
       <div class="col s12 m4">
         <h4>Data Analytics</h4>
         <img id="small-img3" src="https://dev3lop.com/wp-content/uploads/2017/04/tableau-logo-tableau-software.jpg">
-
+        
 
 
       </div>
     </div>
 
   </div>
-
+  
   <div class="container">
+    <a id = "experience"></a>
     <div class="section scrollspy">
 
-
+      
       <div class="row">
-        <h2 id=h2 id="experience">Experience</h2>
+        <h2 id="h2">Experience</h2>
         <hr><br>
       </div>
     </div>
-
+    
     <div class="row">
 
-
+      
       <div class="col s12 m6">
 
         <p>Project Management<p>
-            <p>Business Analysis</p>
-            <p>Performance Management<p>
-      </div>
-
-      <div class="col s12 m6">
+          <p>Business Analysis</p>
+          <p>Performance Management<p>
+          </div>
+          
+          <div class="col s12 m6">
         <p>Research<p>
-            <p>Policy Analysis<p>
+          <p>Policy Analysis<p>
                 <p>Communication<p>
-      </div>
-
+                </div>
+                
     </div>
-
+    
   </div>
-
-
-
+  
+  
+  
   <footer class="page-footer blue">
     <div class="container">
       <div class="row">
@@ -253,15 +256,15 @@
             non-profit and
             city
             government employee with a Master's Degree in education policy.</p> -->
-
-
-        </div>
+            
+            
+          </div>
         <div class="col l3 s12">
           <!-- <h5 class="white-text">Settings</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
+            <ul>
+              <li><a class="white-text" href="#!">Link 1</a></li>
+              <li><a class="white-text" href="#!">Link 2</a></li>
+              <li><a class="white-text" href="#!">Link 3</a></li>
             <li><a class="white-text" href="#!">Link 4</a></li>
           </ul> -->
         </div>
@@ -282,11 +285,12 @@
       </div>
     </div>
   </footer>
+  
 
 
-
-      
-
+  
+  
 </body>
+
 
 </html>
