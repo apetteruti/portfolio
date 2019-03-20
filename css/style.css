@@ -6,7 +6,8 @@
 
   background-image: url(../assets/images/graph.png);
   /* background-color: aqua; */
-  max-height: 2000px;
+  /* max-height: 2000px; */
+  height: 100%;
   /* padding-left: 20px; */
   margin-left: 75px;
   /* max-width: 590px;  */
@@ -15,8 +16,7 @@
   
 }
   
-/* .side-crop { 
-} */
+
 
 #heading{
   padding-left: 115px;
@@ -121,3 +121,4 @@
   max-width: 70px;
 
 }
+
