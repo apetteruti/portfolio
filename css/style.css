@@ -129,6 +129,8 @@ li{
 .span-format{
   padding: 20px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: darkgrey;
+  font-weight: normal;
   font-size: 20px;
 }
 
