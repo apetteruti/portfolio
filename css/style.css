@@ -15,29 +15,53 @@
   text-indent: -10px;
   
 }
-  
 
+#brand-logo2 {
+  position: absolute;
+  color: #fff;
+  display: inline-block;
+  font-size: 2.1rem;
+
+}
+  
 #heading{
   padding-left: 115px;
+  padding-right: 20px;
   padding-bottom: 0px;
   font-size: 75px;
   margin-bottom: 20px;
   line-height: 100%;
+  text-align: right;
   margin: 0;
 }
 
 #sub-head{
   padding-left: 115px;
+  padding-right: 20px;
   margin-top: 5px;
   margin-bottom: 10px;
   font-size: 30px;
+  font-variant: small-caps;
   line-height: 100%;
-  color: darkgray;
+  text-align: right;
+  color: rgb(20, 20, 20);
+}
+
+#bodyfont{
+  padding-left: 115px;
+  padding-right: 20px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  text-align: right;
+  color: rgb(20, 20, 20);
 }
 
 #links{
   color: darkgray;
   padding-left: 115px;
+  padding-right: 20px;
+  text-align: right
 }
 
 .links-scroll a.active{
